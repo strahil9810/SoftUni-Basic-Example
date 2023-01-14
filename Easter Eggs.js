@@ -14,33 +14,33 @@ function easterEggs(input) {
         }
         else if (colorEggs == "orange") {
             orangeEggs++;
-            allEggs --;
+            allEggs--;
         }
         else if (colorEggs == "blue") {
             blueEggs++;
-            allEggs --;
+            allEggs--;
         }
         else if (colorEggs == "green") {
             greenEggs++;
-            allEggs --;
+            allEggs--;
         }
     }
-    let max=redEggs;
-    let maxColor="red";
+    let max = redEggs;
+    let maxColor = "red";
 
-    if(orangeEggs>max){
-        max=orangeEggs;
-        maxColor="orange";
+    if (orangeEggs > max) {
+        max = orangeEggs;
+        maxColor = "orange";
     }
 
-    if(blueEggs>max){
-        max=blueEggs;
-        maxColor="blue"
+    if (blueEggs > max) {
+        max = blueEggs;
+        maxColor = "blue"
     }
 
-    if(greenEggs>max){
-        max=greenEggs;
-        maxColor="green";
+    if (greenEggs > max) {
+        max = greenEggs;
+        maxColor = "green";
     }
     console.log(`Red eggs: ${redEggs}`);
     console.log(`Orange eggs: ${orangeEggs}`);
