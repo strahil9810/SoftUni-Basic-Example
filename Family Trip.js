@@ -18,7 +18,7 @@ function familyTrip(input) {
         let left_price = budget - all_sum;
         console.log(`Ivanovi will be left with ${left_price.toFixed(2)} leva after vacation.`);
     }
-    else{
+    else {
         let neede_price = all_sum - budget;
         console.log(`${neede_price.toFixed(2)} leva needed.`);
     }
