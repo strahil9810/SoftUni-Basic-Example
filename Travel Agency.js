@@ -5,6 +5,8 @@ function travelAgency(input) {
     let days = Number(input[3]);
     let price = 0;
     let all_price = 0;
+
+    // Когато се въведат невалидни данни за град или пакет
     let invalidCase = false;
 
     switch (name_town) {
@@ -84,4 +86,4 @@ function travelAgency(input) {
         }
     }
 }
-travelAgency(["Varna", "dsa", "yes", 5])
+travelAgency(["Montana", "withBreakfast", "yes", 5])
