@@ -18,10 +18,10 @@ function renovation(input) {
     if (wall_paint < 0) {
         console.log(`All walls are painted and you have ${Math.abs(wall_paint)} l paint left!`);
     }
-    else if(wall_paint == 0){
+    else if (wall_paint == 0) {
         console.log(`All walls are painted! Great job, Pesho!`);
     }
-    else{
+    else {
         console.log(`${wall_paint} quadratic m left.`);
     }
 }
