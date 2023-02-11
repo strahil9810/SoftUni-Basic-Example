@@ -10,7 +10,7 @@ function pointInRectangle(input) {
         console.log("Border");
     }
     else {
-        console.log("Inside / Outsite");
+        console.log("Inside / Outside");
     }
 }
 pointInRectangle([2, -3, 12, 3, 8, -1])

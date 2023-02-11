@@ -21,7 +21,7 @@ function studentCamp(input) {
                     break;
 
                 case "mixed":
-                    price = 9.20 * numberStudent * numberDays;
+                    price = 9.50 * numberStudent * numberDays;
                     sport = 'Cycling';
                     break;
             }
@@ -78,4 +78,4 @@ function studentCamp(input) {
 
     console.log(`${sport} ${price.toFixed(2)} lv.`);
 }
-studentCamp(['Winter', 'mixed', 9, 15])
+studentCamp(['Spring', 'mixed', 17, 14])
