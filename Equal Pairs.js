@@ -19,10 +19,10 @@ function equalPairs(input) {
     }
 
     if(maxDiff === 0){
-        console.log(`YES = ${lastPair}`);
+        console.log(`Yes, value=${lastPair}`);
     }
     else{
-        console.log(`NO, DIFF = ${maxDiff}`);
+        console.log(`No, maxdiff=${maxDiff}`);
     }
 }
 equalPairs([3, 1, 2, 0, 3, 4, -1])
